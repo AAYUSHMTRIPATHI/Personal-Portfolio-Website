@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=PT+Sans:ital@1&display=swap');
 
 .gradient-background {
-    background: linear-gradient(200deg, #0F1035, #365486, #7FC7D9, #DCF2F1);
+    background: linear-gradient(300deg, #0F1035, #365486, #7FC7D9, #DCF2F1);
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
 }
