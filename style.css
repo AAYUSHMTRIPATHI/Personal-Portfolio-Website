@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=PT+Sans:ital@1&display=swap');
+
+.gradient-background {
+    background: linear-gradient(200deg, #0F1035, #365486, #7FC7D9, #DCF2F1);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    padding-bottom: 0;
+}
+
+#home .container {
+    height: 100vh;
+    color: #DCF2F1;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Lemon', serif;
+}
+
+h4 {
+    font-family: 'PT Sans', sans-serif
+}
+
+.profile-img {
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.hey {
+    font-family: 'Lemon', serif;
+    font-size: 40px;
+    color: #365486;
+}
+
+.about {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+
+hr {
+    border: dotted #7FC7D9 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+}
+
+.skill {
+    font-family: 'Lemon', serif;
+    font-size: 40px;
+    color: #365486;
+}
+
+.skills {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.svg {
+    background-color: #365486;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.contact {
+    font-family: 'Lemon', serif;
+    font-size: 40px;
+    color: #365486;
+}
+
+.get {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+
+.get1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.contme {
+    background-color: #7FC7D9;
+    border-color: #7FC7D9 ;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+}
+
+.contme:hover {
+    background-color:#365486;
+    border-color: #fff 2px;
+
+
+}
+
+footer {
+    background-color: #365486;
+    color: #DCF2F1;
+}
+
+.social a {
+    color: #DCF2F1;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.social a:hover{
+    border: solid 2px #DCF2F1;
+    border-radius: 10px;
+}
+
+@media (max-width:572px) {
+    .profile-img {
+        width: 200px;
+    }
+
+    .hey {
+        font-size: 30px;
+    }
+
+    .about{
+        font-size: 20px;
+    }
+
+    .contact {
+        font-size: 30px;
+    }
+
+    .get {
+        font-size: 20px;
+    }
+
+    .get1 {
+        font-size: 15px;
+    }
+
+    .social a{
+        font-size: 15px;
+    }
+
+    hr {
+        border: dotted #7FC7D9 10px;
+        border-bottom: none;
+        width: 20%;
+        margin: 50px auto;
+    }
+
+
+}
