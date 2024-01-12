@@ -135,6 +135,11 @@ footer {
     border-radius: 10px;
 }
 
+.links{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width:572px) {
     .profile-img {
         width: 200px;
