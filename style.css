@@ -135,7 +135,7 @@ footer {
     border-radius: 10px;
 }
 
-.links{
+.links a{
     text-decoration: none;
     color: white;
 }
